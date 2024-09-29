@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Calculator</title>
     <link rel = "stylesheet" href = "style.css">
 </head>
 <body>
@@ -12,20 +12,20 @@
         <div id = "keys">
             <button onclick = "clearDisplay()" class = "top-btn">AC</button>
             <button onclick = "negate()" class = "top-btn">+/-</button>
-            <button onclick = "appendToDisplay('%')" class = "top-btn">%</button>
-            <button onclick = "appendToDisplay('/')" class = "operator-btn">&divide</button>
+            <button onclick = "callMod('%')" class = "top-btn">%</button>
+            <button onclick = "callDiv()" class = "operator-btn">&divide</button>
             <button onclick = "appendToDisplay('7')">7</button>
             <button onclick = "appendToDisplay('8')">8</button>
             <button onclick = "appendToDisplay('9')">9</button>
-            <button onclick = "appendToDisplay('*')" class = "operator-btn">*</button>
+            <button onclick = "callMul()" class = "operator-btn">*</button>
             <button onclick = "appendToDisplay('4')">4</button>
             <button onclick = "appendToDisplay('5')">5</button>
             <button onclick = "appendToDisplay('6')">6</button>
-            <button onclick = "appendToDisplay('-')" class = "operator-btn">-</button>
+            <button onclick = "callSub()" class = "operator-btn">-</button>
             <button onclick = "appendToDisplay('1')">1</button>
             <button onclick = "appendToDisplay('2')">2</button>
             <button onclick = "appendToDisplay('3')">3</button>
-            <button onclick = "appendToDisplay('+')" class = "operator-btn">+</button>
+            <button onclick = "callAdd()" class = "operator-btn">+</button>
             <button onclick = "appendToDisplay('0')" class = "zero">0</button>
             <button onclick = "appendToDisplay('.')">.</button>
             <button onclick = "calculate()" class = "operator-btn">=</button>

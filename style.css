@@ -6,6 +6,7 @@ body{
     height: 100vh;
     background-color: hsl(0, 0%, 90%);
 }
+
 #calculator{
     margin: 25px 25px;
     background-color: black;
